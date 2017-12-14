@@ -1,38 +1,23 @@
-
 package factorial;
-
-
+/**
+ * Programa que calcula la factorizacion del numero 8.
+ * @author pnocedalopez
+ */
 public class Factorial {
-
-
+/**
+ * Metodo principal
+ * @param args 
+ */
     public static void main(String[] args) {
+        
+        Calculos calculos = new Calculos();
 
+        int j = 8, f;
 
-    int j;
-    int f;
-
-  
-   j = 8;    
-   
-
-    
-   int i;
-   if (j == 0)
-f = 1;
-   else
-   {
-f = 1;
-for (i = j; i >= 1; i--)
-{
-    f = f * i;
-}
-   }    
-  
- 
-
-System.out.println(f); 
-
+        f=calculos.calculoF(j);
+      
+        System.out.println(f);
 
     }
-    
+
 }
